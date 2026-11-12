@@ -1,0 +1,69 @@
+name: RoboMorph auto-Reels
+
+on:
+  schedule:
+    # 07:00, 12:00, 19:00 WITA (UTC+8)
+    - cron: "0 23 * * *"
+    - cron: "0 4 * * *"
+    - cron: "0 11 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: robomorph
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install ffmpeg and fonts
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y ffmpeg fonts-dejavu-core
+          pip install requests
+
+      - name: Make and post one Reel
+        env:
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          BUFFER_SIZE: "0"
+          KEEP_POSTED: "0"
+        run: |
+          if [ -z "$FB_PAGE_TOKEN" ]; then
+            echo "FB_PAGE_TOKEN belum diisi: video dibuat tapi tidak diposting (lihat Artifacts)."
+            export DRY_RUN=1
+          fi
+          python3 robomorph.py post
+
+      - name: Save video for download
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reel-${{ github.run_number }}
+          path: |
+            ready/*.mp4
+            ready/*.json
+            logs/robomorph.log
+          if-no-files-found: ignore
+          retention-days: 7
+
+      - name: Save rotation state
+        if: always()
+        run: |
+          if [ -f state.json ] && [ -n "$(git status --porcelain state.json)" ]; then
+            git config user.name "robomorph-bot"
+            git config user.email "robomorph-bot@users.noreply.github.com"
+            git add state.json
+            git commit -m "update state [skip ci]"
+            git push
+          fi

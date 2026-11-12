@@ -43,3 +43,13 @@ tail -n 30 logs/robomorph.log
 ```
 
 Kalau hasilnya sudah sesuai, posting berjalan otomatis sesuai jadwal. Untuk melihat jadwal: `systemctl list-timers 'robomorph*'`.
+
+## Tanpa VPS: GitHub Actions (sudah aktif)
+
+Repo ini juga berjalan otomatis di GitHub Actions setiap jam 07.00, 12.00, dan 19.00 WITA, gratis untuk repo publik. Isi key dan token di **Settings → Secrets and variables → Actions → New repository secret**:
+
+- `PIXABAY_API_KEY`
+- `FB_PAGE_ID`, `FB_PAGE_TOKEN`
+- opsional: `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`
+
+Selama `FB_PAGE_TOKEN` belum diisi, video tetap dibuat tetapi tidak diposting. Hasilnya bisa diunduh di tab **Actions → (run) → Artifacts**.
