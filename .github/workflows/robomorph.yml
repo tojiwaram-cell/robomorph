@@ -45,6 +45,32 @@ jobs:
           fi
           python3 robomorph.py post
 
+      - name: Send to Make.com (posts the Reel without a Meta developer account)
+        env:
+          MAKE_WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -n "$FB_PAGE_TOKEN" ] || [ -z "$MAKE_WEBHOOK_URL" ]; then
+            echo "Make.com step skipped."; exit 0
+          fi
+          VIDEO=$(ls ready/*.mp4 2>/dev/null | head -1)
+          [ -n "$VIDEO" ] || { echo "no video"; exit 1; }
+          META="${VIDEO%.mp4}.json"
+          TAG="reel-${{ github.run_number }}"
+          gh release create "$TAG" "$VIDEO" --title "$TAG" --notes "Auto Reel" --latest=false
+          URL="https://github.com/${{ github.repository }}/releases/download/$TAG/$(basename "$VIDEO")"
+          python3 - "$META" "$URL" > payload.json <<'PY'
+          import json, sys
+          m = json.load(open(sys.argv[1]))
+          print(json.dumps({"video_url": sys.argv[2], "caption": m["caption"], "title": m["title"]}, ensure_ascii=False))
+          PY
+          curl -fsS -X POST -H "Content-Type: application/json" --data @payload.json "$MAKE_WEBHOOK_URL"
+          echo "Sent to Make: $URL"
+          # keep only the 15 newest reel releases
+          gh release list --limit 100 --json tagName -q '.[].tagName' | grep '^reel-' | sort -t- -k2 -n -r | tail -n +16 | \
+            xargs -r -I{} gh release delete {} --yes --cleanup-tag
+
       - name: Save video for download
         if: always()
         uses: actions/upload-artifact@v4

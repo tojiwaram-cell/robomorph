@@ -53,3 +53,7 @@ Repo ini juga berjalan otomatis di GitHub Actions setiap jam 07.00, 12.00, dan 1
 - opsional: `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`
 
 Selama `FB_PAGE_TOKEN` belum diisi, video tetap dibuat tetapi tidak diposting. Hasilnya bisa diunduh di tab **Actions → (run) → Artifacts**.
+
+## Posting lewat Make.com (tanpa akun Meta Developer)
+
+Kalau token Facebook tidak bisa didapat, isi secret `MAKE_WEBHOOK_URL`. Setiap jadwal, video diunggah sebagai file publik di Releases repo ini, lalu link-nya dikirim ke webhook Make bersama caption. Di Make: **Webhooks → Custom webhook** → **Facebook Pages → Publish a Reel**. Isi videonya dengan `video_url` dan deskripsinya dengan `caption`.
