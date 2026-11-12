@@ -1,0 +1,296 @@
+[
+  {
+    "id": "kecambah-kacang",
+    "title": "Dari Biji Menjadi Tunas",
+    "queries": ["seed germination timelapse", "bean sprout growing", "seedling growing soil"],
+    "image_queries": ["bean germination", "seedling cotyledon"],
+    "facts": [
+      "Biji menyerap air lalu membengkak, kulitnya pun pecah.",
+      "Akar (radikula) keluar lebih dulu dan tumbuh ke bawah mengikuti gravitasi.",
+      "Tunas melengkung naik menembus tanah menuju cahaya.",
+      "Dua daun pertama (kotiledon) masih menyimpan cadangan makanan dari biji."
+    ],
+    "caption": "🌱 Dari biji ke tunas. Akar selalu keluar lebih dulu dan tumbuh ke bawah mengikuti gravitasi, baru kemudian tunas naik mencari cahaya.",
+    "tags": "#sains #tanaman #alam #biologi"
+  },
+  {
+    "id": "fotosintesis",
+    "title": "Mengapa Daun Berwarna Hijau?",
+    "queries": ["green leaves sunlight", "leaf macro sunlight", "forest canopy sun rays"],
+    "image_queries": ["leaf chlorophyll macro", "green leaf sunlight"],
+    "facts": [
+      "Daun mengandung pigmen bernama klorofil.",
+      "Klorofil menyerap cahaya merah dan biru untuk fotosintesis.",
+      "Cahaya hijau lebih banyak dipantulkan, sehingga daun tampak hijau.",
+      "Dari fotosintesis, tumbuhan melepaskan oksigen ke udara."
+    ],
+    "caption": "🍃 Daun tampak hijau karena klorofil justru memantulkan cahaya hijau, sementara cahaya merah dan biru diserap untuk fotosintesis.",
+    "tags": "#fotosintesis #sains #alam #daun"
+  },
+  {
+    "id": "embun-pagi",
+    "title": "Dari Mana Datangnya Embun?",
+    "queries": ["dew drops grass morning", "water droplets leaf macro", "morning dew spider web"],
+    "image_queries": ["dew drops grass", "dew on leaf"],
+    "facts": [
+      "Udara selalu mengandung uap air yang tak terlihat.",
+      "Di malam hari, permukaan daun dan rumput mendingin.",
+      "Saat suhunya turun di bawah titik embun, uap air mengembun.",
+      "Hasilnya: butiran air kecil yang kita lihat di pagi hari."
+    ],
+    "caption": "💧 Embun tidak jatuh dari langit. Ia terbentuk ketika uap air di udara mengembun di permukaan yang dingin pada malam hari.",
+    "tags": "#embun #sains #alam #cuaca"
+  },
+  {
+    "id": "lebah-penyerbukan",
+    "title": "Lebah dan Bunga",
+    "queries": ["bee pollinating flower", "honeybee flower macro", "bee collecting pollen"],
+    "image_queries": ["bee pollen flower", "honeybee pollination"],
+    "facts": [
+      "Lebah mengunjungi bunga untuk mengambil nektar dan serbuk sari.",
+      "Serbuk sari menempel di rambut-rambut halus tubuhnya.",
+      "Saat pindah ke bunga lain, sebagian serbuk sari ikut berpindah.",
+      "Inilah penyerbukan, langkah awal terbentuknya buah dan biji."
+    ],
+    "caption": "🐝 Setiap kunjungan lebah ke bunga ikut memindahkan serbuk sari. Tanpa penyerbuk, banyak tanaman tidak bisa menghasilkan buah.",
+    "tags": "#lebah #penyerbukan #sains #alam"
+  },
+  {
+    "id": "bunga-matahari",
+    "title": "Bunga Matahari Mengikuti Matahari?",
+    "queries": ["sunflower field", "sunflower close up", "sunflower timelapse"],
+    "image_queries": ["sunflower field", "Helianthus annuus"],
+    "facts": [
+      "Tanaman bunga matahari yang masih muda bergerak mengikuti matahari.",
+      "Pagi menghadap timur, sore menghadap barat, lalu kembali di malam hari.",
+      "Gerakan ini disebut heliotropisme.",
+      "Setelah mekar penuh, kebanyakan bunganya tetap menghadap timur."
+    ],
+    "caption": "🌻 Hanya bunga matahari muda yang mengikuti gerak matahari. Setelah dewasa, kebanyakan bunganya diam menghadap timur.",
+    "tags": "#bungamatahari #sains #tanaman #alam"
+  },
+  {
+    "id": "kratky",
+    "title": "Hidroponik Tanpa Pompa",
+    "queries": ["hydroponic lettuce roots", "hydroponics plants water roots", "lettuce growing hydroponic"],
+    "image_queries": ["Kratky method hydroponics", "hydroponic lettuce roots"],
+    "facts": [
+      "Metode Kratky dikembangkan oleh Bernard Kratky di Universitas Hawaii.",
+      "Akar tanaman menggantung di dalam larutan nutrisi.",
+      "Saat larutan berkurang, terbentuk ruang udara yang memberi oksigen pada akar.",
+      "Tanpa pompa dan tanpa listrik, cocok untuk sayuran daun seperti selada."
+    ],
+    "caption": "🥬 Hidroponik Kratky: tanpa pompa, tanpa listrik. Ruang udara di atas larutan nutrisi membuat akar tetap mendapat oksigen.",
+    "tags": "#hidroponik #kratky #berkebun #sains"
+  },
+  {
+    "id": "awan-cumulus",
+    "title": "Bagaimana Awan Terbentuk?",
+    "queries": ["cumulus clouds timelapse", "clouds forming timelapse", "white clouds blue sky"],
+    "image_queries": ["cumulus clouds", "cumulus cloud sky"],
+    "facts": [
+      "Matahari memanaskan permukaan bumi dan udara di atasnya.",
+      "Udara hangat naik, lalu mendingin di ketinggian.",
+      "Uap air mengembun menjadi titik-titik air yang sangat kecil.",
+      "Miliaran titik air itulah yang kita lihat sebagai awan."
+    ],
+    "caption": "☁️ Awan adalah kumpulan miliaran titik air mungil yang terbentuk saat udara hangat naik dan mendingin.",
+    "tags": "#awan #langit #sains #cuaca"
+  },
+  {
+    "id": "pelangi",
+    "title": "Rahasia Pelangi",
+    "queries": ["rainbow sky", "rainbow over landscape", "rainbow after rain"],
+    "image_queries": ["rainbow sky landscape", "double rainbow"],
+    "facts": [
+      "Pelangi muncul saat cahaya matahari mengenai tetes-tetes air hujan.",
+      "Cahaya dibiaskan, dipantulkan di dalam tetes, lalu dibiaskan lagi.",
+      "Setiap warna dibelokkan dengan sudut yang sedikit berbeda.",
+      "Karena itu, pelangi hanya terlihat saat matahari ada di belakang kita."
+    ],
+    "caption": "🌈 Pelangi terbentuk dari cahaya matahari yang dibiaskan dan dipantulkan di dalam tetes air. Matahari harus berada di belakang pengamat.",
+    "tags": "#pelangi #langit #sains #fisika"
+  },
+  {
+    "id": "siklus-air",
+    "title": "Perjalanan Setetes Air",
+    "queries": ["ocean waves aerial", "rain falling nature", "river flowing forest"],
+    "image_queries": ["water cycle river", "rain clouds landscape"],
+    "facts": [
+      "Panas matahari menguapkan air dari laut, sungai, dan danau.",
+      "Uap air naik dan mengembun menjadi awan.",
+      "Awan menjatuhkan air sebagai hujan.",
+      "Air mengalir kembali ke sungai dan laut, lalu siklus berulang."
+    ],
+    "caption": "🌊 Air di bumi terus berputar: menguap, menjadi awan, turun sebagai hujan, lalu kembali ke laut.",
+    "tags": "#siklusair #sains #alam #hujan"
+  },
+  {
+    "id": "jamur-miselium",
+    "title": "Jaringan Tersembunyi di Bawah Tanah",
+    "queries": ["mushrooms forest floor", "mushroom timelapse", "fungi forest macro"],
+    "image_queries": ["mycelium", "mushrooms forest floor"],
+    "facts": [
+      "Jamur yang kita lihat hanyalah bagian kecil dari organismenya.",
+      "Bagian utamanya adalah miselium: benang-benang halus di dalam tanah.",
+      "Miselium mengurai daun dan kayu mati menjadi unsur hara.",
+      "Banyak jamur bekerja sama dengan akar pohon untuk bertukar nutrisi."
+    ],
+    "caption": "🍄 Jamur yang tampak di permukaan hanyalah 'buahnya'. Bagian utamanya, miselium, menyebar luas di dalam tanah.",
+    "tags": "#jamur #fungi #sains #hutan"
+  },
+  {
+    "id": "pinus-tertua",
+    "title": "Pohon yang Hidup Ribuan Tahun",
+    "queries": ["bristlecone pine", "ancient tree", "old twisted tree"],
+    "image_queries": ["Pinus longaeva", "bristlecone pine White Mountains"],
+    "facts": [
+      "Pinus bristlecone (Pinus longaeva) tumbuh di pegunungan California.",
+      "Salah satunya, dijuluki Methuselah, berumur lebih dari 4.800 tahun.",
+      "Ia tumbuh sangat lambat di tempat kering dan dingin.",
+      "Kayunya yang padat membuatnya tahan terhadap serangga dan pembusukan."
+    ],
+    "caption": "🌲 Pinus bristlecone bernama Methuselah sudah hidup lebih dari 4.800 tahun di pegunungan California.",
+    "tags": "#pohon #sejarah #sains #alam"
+  },
+  {
+    "id": "bunga-bangkai",
+    "title": "Bunga Bangkai dari Sumatra",
+    "queries": ["corpse flower", "amorphophallus titanum", "giant tropical flower"],
+    "image_queries": ["Amorphophallus titanum", "titan arum bloom"],
+    "facts": [
+      "Bunga bangkai (Amorphophallus titanum) berasal dari hutan Sumatra.",
+      "Ia memiliki perbungaan tak bercabang terbesar di dunia.",
+      "Saat mekar, ia mengeluarkan bau busuk untuk menarik serangga penyerbuk.",
+      "Mekarnya hanya bertahan sekitar dua sampai tiga hari."
+    ],
+    "caption": "🌺 Bunga bangkai asli Sumatra memiliki perbungaan tak bercabang terbesar di dunia. Baunya menarik serangga penyerbuk.",
+    "tags": "#bungabangkai #sumatra #indonesia #sains"
+  },
+  {
+    "id": "rafflesia",
+    "title": "Bunga Tunggal Terbesar di Dunia",
+    "queries": ["rafflesia flower", "rainforest jungle", "tropical rainforest"],
+    "image_queries": ["Rafflesia arnoldii", "Rafflesia flower"],
+    "facts": [
+      "Rafflesia arnoldii adalah bunga tunggal terbesar di dunia.",
+      "Diameternya bisa mencapai sekitar satu meter.",
+      "Ia tidak punya daun, batang, maupun akar sendiri.",
+      "Rafflesia hidup sebagai parasit pada tumbuhan merambat Tetrastigma."
+    ],
+    "caption": "🌸 Rafflesia arnoldii, bunga tunggal terbesar di dunia, tidak punya daun, batang, atau akar. Ia menumpang hidup pada tumbuhan Tetrastigma.",
+    "tags": "#rafflesia #indonesia #flora #sains"
+  },
+  {
+    "id": "padi-aerenkim",
+    "title": "Mengapa Padi Tahan Tergenang?",
+    "queries": ["rice field aerial", "rice paddy", "green rice plants"],
+    "image_queries": ["rice paddy field", "Oryza sativa field"],
+    "facts": [
+      "Kebanyakan tanaman akan busuk akarnya bila terus tergenang air.",
+      "Padi punya jaringan berongga bernama aerenkim.",
+      "Aerenkim menyalurkan oksigen dari daun ke akar.",
+      "Karena itu padi bisa tumbuh subur di sawah yang tergenang."
+    ],
+    "caption": "🌾 Padi punya 'saluran udara' bernama aerenkim yang mengalirkan oksigen ke akar, sehingga tahan hidup di sawah tergenang.",
+    "tags": "#padi #sawah #sains #pertanian"
+  },
+  {
+    "id": "efek-lotus",
+    "title": "Daun Teratai yang Tak Pernah Basah",
+    "queries": ["lotus leaf water drop", "water drop on leaf", "lotus pond"],
+    "image_queries": ["lotus effect water drop", "Nelumbo nucifera leaf"],
+    "facts": [
+      "Air yang jatuh ke daun teratai langsung membulat dan menggelinding.",
+      "Permukaannya punya tonjolan mikro yang dilapisi lilin.",
+      "Air hanya menyentuh sedikit sekali permukaan daun.",
+      "Butiran air ikut membawa debu, sehingga daun tetap bersih."
+    ],
+    "caption": "🪷 Efek lotus: struktur mikro berlilin di daun teratai membuat air menggelinding sambil membawa debu. Daun pun selalu bersih.",
+    "tags": "#teratai #lotus #sains #alam"
+  },
+  {
+    "id": "bambu",
+    "title": "Tanaman Paling Cepat Tumbuh",
+    "queries": ["bamboo forest", "bamboo growing", "bamboo stalks wind"],
+    "image_queries": ["bamboo forest", "bamboo shoots"],
+    "facts": [
+      "Bambu termasuk keluarga rumput-rumputan.",
+      "Beberapa spesiesnya bisa tumbuh hampir satu meter dalam sehari.",
+      "Rebungnya memanjang dengan cepat karena ruas-ruasnya tumbuh bersamaan.",
+      "Akar rimpangnya membantu menahan tanah dari erosi."
+    ],
+    "caption": "🎋 Beberapa spesies bambu bisa tumbuh hampir satu meter dalam sehari. Bambu sebenarnya termasuk keluarga rumput.",
+    "tags": "#bambu #tanaman #sains #alam"
+  },
+  {
+    "id": "petir",
+    "title": "Petir Lebih Panas dari Matahari",
+    "queries": ["lightning storm night", "thunderstorm lightning", "storm clouds lightning"],
+    "image_queries": ["lightning strike", "lightning storm"],
+    "facts": [
+      "Petir terjadi karena perbedaan muatan listrik di dalam awan badai.",
+      "Suhu kilatan petir bisa mencapai sekitar 30.000 °C.",
+      "Itu kira-kira lima kali lebih panas dari permukaan matahari.",
+      "Udara yang memuai tiba-tiba menghasilkan suara guntur."
+    ],
+    "caption": "⚡ Kilatan petir bisa mencapai sekitar 30.000 °C, kira-kira lima kali suhu permukaan matahari.",
+    "tags": "#petir #cuaca #sains #fisika"
+  },
+  {
+    "id": "kristal-salju",
+    "title": "Mengapa Salju Bersisi Enam?",
+    "queries": ["snowflake macro", "snow falling", "ice crystals frost"],
+    "image_queries": ["snowflake macro", "snow crystal"],
+    "facts": [
+      "Setiap kepingan salju terbentuk dari kristal es di dalam awan.",
+      "Molekul air tersusun membentuk pola heksagonal saat membeku.",
+      "Karena itu kepingan salju hampir selalu bersisi enam.",
+      "Suhu dan kelembapan membuat bentuk tiap kepingan berbeda."
+    ],
+    "caption": "❄️ Kepingan salju bersisi enam karena molekul air tersusun heksagonal saat membeku.",
+    "tags": "#salju #kristal #sains #fisika"
+  },
+  {
+    "id": "bintil-akar",
+    "title": "Pupuk Alami dari Udara",
+    "queries": ["peanut plants field", "bean plants growing", "legume field"],
+    "image_queries": ["root nodules legume", "Rhizobium nodules"],
+    "facts": [
+      "Udara mengandung sekitar 78 persen nitrogen.",
+      "Tanaman kacang-kacangan bekerja sama dengan bakteri Rhizobium.",
+      "Bakteri itu hidup di bintil akar dan mengikat nitrogen dari udara.",
+      "Nitrogen tersebut menyuburkan tanaman dan juga tanah di sekitarnya."
+    ],
+    "caption": "🫘 Bintil di akar kacang-kacangan berisi bakteri Rhizobium yang mengubah nitrogen udara menjadi pupuk alami.",
+    "tags": "#kacang #pertanian #sains #biologi"
+  },
+  {
+    "id": "daun-gugur",
+    "title": "Mengapa Daun Berubah Warna?",
+    "queries": ["autumn leaves", "falling leaves", "autumn forest colors"],
+    "image_queries": ["autumn leaves colors", "fall foliage"],
+    "facts": [
+      "Daun juga mengandung pigmen kuning dan oranye bernama karotenoid.",
+      "Selama musim tumbuh, warna itu tertutup hijaunya klorofil.",
+      "Saat klorofil terurai, warna kuning dan oranye mulai terlihat.",
+      "Warna merah berasal dari pigmen lain, yaitu antosianin."
+    ],
+    "caption": "🍂 Warna kuning dan oranye sebenarnya sudah ada di dalam daun. Ia baru terlihat saat klorofil yang hijau terurai.",
+    "tags": "#daun #musimgugur #sains #alam"
+  },
+  {
+    "id": "kelapa-laut",
+    "title": "Kelapa Si Penjelajah Laut",
+    "queries": ["coconut palm beach", "palm trees beach", "coconut on sand"],
+    "image_queries": ["coconut on beach", "Cocos nucifera beach"],
+    "facts": [
+      "Sabut kelapa berisi banyak udara sehingga buahnya bisa mengapung.",
+      "Kulit luarnya yang keras melindunginya dari air laut.",
+      "Buah kelapa bisa terbawa arus hingga ke pulau lain.",
+      "Di pantai baru, ia bisa berkecambah dan tumbuh menjadi pohon."
+    ],
+    "caption": "🥥 Buah kelapa bisa mengapung dan terbawa arus laut, lalu tumbuh di pantai pulau lain.",
+    "tags": "#kelapa #pantai #sains #alam"
+  }
+]
